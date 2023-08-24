@@ -1,0 +1,21 @@
+1) CEO_ID, CEO_Name, Phone_No, Email
+2) L_ID, L_Name, Season, L_Rules, S_Date, E_Date, CEO_ID (F.K)
+3) T_ID, T_Name, Logo
+4) P_ID, P_Name, Age, P_Position, Statistics
+5) T_ID (P.K), P_ID (F.K)
+6) C_ID, C_Name, Salary, C_Position
+7) T_ID, T_Name, Logo
+8) C_ID (P.K), T_ID (F.K)
+9) CEO_ID, CEO_Name, Phone_No, Email
+10) M_ID (F.K), M_Date, M_Time, Venu, CEO_ID (F.K), VS, S_NO (P.K)
+11) T_ID, T_Name, Logo
+12) M_ID, M_Date, M_Time, Venu
+13) T_ID (F.K), M_ID (P.K), PT_Name
+14) MOF_ID, MOF_Name
+15) M_ID, M_Date, M_Time, Venu
+16) MOF_ID (P.K), M_ID (F.K), O_Rules
+17) CEO_ID, CEO_Name, Phone_No, Email
+18) C_ID, C_Name, Salary, C_Position, H_Date, CEO_ID (F.K)
+19) L_ID, L_Name, Season, L_Rules, S_Date, E_Date
+20) T_ID, T_Name, Logo
+21) L_ID (P.K), T_ID (F.K)
